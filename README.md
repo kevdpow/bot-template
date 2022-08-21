@@ -11,7 +11,7 @@ This README is intended for a bot that schedules tweets. [Perpetually running bo
 - [Heroku Account](https://signup.heroku.com/)
 - Twitter account for bot
 - Human account to link to bot
-- [Developer permissions](http://www.developer.twitter.com) for bot account
+- [Developer permissions](https://developer.twitter.com/en) for bot account
 - [Repo from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ## Generate Secrets
