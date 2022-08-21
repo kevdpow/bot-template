@@ -31,7 +31,6 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 ```
 
 - Set secret env vars locally: `sh setenv.sh`
-- [Set secret env vars in Heroku](https://devcenter.heroku.com/articles/config-vars): `heroku config:set $(grep -v '^#' .local-secrets)`
 
 ## Develop Bot
 
@@ -43,6 +42,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 - Create Heroku app
   - [Install Heroku CLI](https://devcenter.heroku.com/articles/git)
   - `heroku create YOUR-APP-NAME --buildpack heroku/python`
+- [Set secret env vars in Heroku](https://devcenter.heroku.com/articles/config-vars): `heroku config:set $(grep -v '^#' .local-secrets)`
 - Install Heroku Scheduler
   - `heroku addons:create scheduler:standard`
 - **Develop bot in `main.py`!**
