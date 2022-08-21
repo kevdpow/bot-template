@@ -54,7 +54,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 - [Select App in Heroku Dashboard](https://dashboard.heroku.com/apps)
 - Click Heroku Scheduler
 - Add job
-  - Choose your own frequency
+  - Choose frequency
   - Scheduler Command: `python main.py`
 
 ### Monitor bot
