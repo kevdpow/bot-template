@@ -31,6 +31,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 ```
 
 - `sh setenv.sh`
+- [Add secrets to Heroku app](https://devcenter.heroku.com/articles/config-vars)
 
 ## Develop Bot
 
