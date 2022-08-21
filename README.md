@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This README is intended for a bot that schedules tweets.[Perpetually running bots will likely not fall within Heroku's free deployment tier](https://www.heroku.com/pricing).
+This README is intended for a bot that schedules tweets. [Perpetually running bots will likely not fall within Heroku's free deployment tier](https://www.heroku.com/pricing).
 
 ## Requirements
 
@@ -12,8 +12,7 @@ This README is intended for a bot that schedules tweets.[Perpetually running bot
 - Twitter account for bot
 - Human account to run bot
 - [Developer permissions](developer.twitter.com/) for human account
-- [Create your own repo from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-- Clone repo locally
+- [Repo from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ## Generate Secrets
 
@@ -25,10 +24,10 @@ This README is intended for a bot that schedules tweets.[Perpetually running bot
 - Add the following keys:
 
 ```
-"TWITTER_API_KEY"= [Your Twitter Api Key]
-"TWITTER_API_SECRET"= [Your Twitter Api Secret]
-"TWITTER_ACCESS_TOKEN"= [Your Twitter Access Token]
-"TWITTER_ACCESS_TOKEN_SECRET"= [Your Twitter Access Token Secret]
+TWITTER_API_KEY=YOUR-TWITTER-API-KEY
+TWITTER_API_SECRET=YOUR-TWITTER-API-SECRET
+TWITTER_ACCESS_TOKEN=YOUR-TWITTER-ACCESS-TOKEN
+TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 ```
 
 - `source setenv.sh`
