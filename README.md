@@ -34,7 +34,6 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 
 ## Develop Bot
 
-- `python3 -m pip freeze > requirements.txt`
 - Create and activate virtual environment
   - `python3 -m venv venv`
   - Mac/OSX: `source venv/bin/activate`
@@ -50,6 +49,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 
 ## Deploy and Schedule bot
 
+- `python3 -m pip freeze > requirements.txt`
 - Push changes to Heroku
   - `git push heroku main`
 - [Select App in Heroku Dashboard](https://dashboard.heroku.com/apps)
