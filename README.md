@@ -18,7 +18,7 @@ This README is intended for a bot that schedules tweets. [Perpetually running bo
 
 - Log into Twitter bot -> Settings & Privacy -> Account information -> Automation -> Link bot to human Twitter account
 - Create app within your developer account
-- On app dashboard, enable OAuth 1.0a with Read/Write privileges.
+- On app dashboard, enable OAuth 1.0a with Read/Write privileges
 - Generate keys for the app in "Keys and Tokens" tab
 - Create `.local-secrets` file in local repo (**do not commit**)
 - Add the following keys:
