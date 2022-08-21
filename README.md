@@ -16,7 +16,6 @@ This README is intended for a bot that schedules tweets. [Perpetually running bo
 
 ## Generate Secrets
 
-- Log into Twitter bot -> Settings & Privacy -> Account information -> Automation -> Link bot to human Twitter account
 - Create app within your bot developer account
 - On app dashboard, enable OAuth 1.0a with Read/Write privileges
 - Generate keys for the app in "Keys and Tokens" tab
@@ -49,6 +48,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 
 ## Deploy and Schedule bot
 
+- Log into Twitter bot -> Settings & Privacy -> Account information -> Automation -> Link bot to human Twitter account
 - `python3 -m pip freeze > requirements.txt`
 - Push changes to Heroku
   - `git push heroku main`
