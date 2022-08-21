@@ -35,8 +35,10 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 
 ## Develop Bot
 
-- Create virtual environment
+- Create and activate virtual environment
   - `python3 -m venv venv`
+  - Mac/OSX: `source venv/bin/activate`
+  - Windows: `call venv\Scripts\activate.bat`
 - `python3 -m pip install -r requirements.txt`
 - Create Heroku app
   - [Install Heroku CLI if you haven't](https://devcenter.heroku.com/articles/git)
