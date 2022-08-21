@@ -1,4 +1,4 @@
-# bot-template
+# Heroku Python Twitter Bot Instructions
 
 ## Introduction
 
