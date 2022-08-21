@@ -33,7 +33,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 
 ## Develop Bot
 
-- Create and activate virtual environment
+- Create and activate virtual environment in local repo
   - `python3 -m venv venv`
   - Mac/OSX: `source venv/bin/activate`
   - Windows: `call venv\Scripts\activate.bat`
