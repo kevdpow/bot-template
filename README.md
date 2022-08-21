@@ -10,14 +10,14 @@ This README is intended for a bot that schedules tweets. [Perpetually running bo
 - Github account
 - [Heroku Account](https://signup.heroku.com/)
 - Twitter account for bot
-- Human account to run bot
-- [Developer permissions](developer.twitter.com/) for human account
+- Human account to link to bot
+- [Developer permissions](developer.twitter.com/) for bot account
 - [Repo from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 
 ## Generate Secrets
 
 - Log into Twitter bot -> Settings & Privacy -> Account information -> Automation -> Link bot to human Twitter account
-- Create app within your developer account
+- Create app within your bot developer account
 - On app dashboard, enable OAuth 1.0a with Read/Write privileges
 - Generate keys for the app in "Keys and Tokens" tab
 - Create `.local-secrets` file in local repo (**do not commit**)
@@ -30,8 +30,8 @@ TWITTER_ACCESS_TOKEN=YOUR-TWITTER-ACCESS-TOKEN
 TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
 ```
 
-- `sh setenv.sh`
-- [Add secrets to Heroku app](https://devcenter.heroku.com/articles/config-vars)
+- Set secret env vars locally: `sh setenv.sh`
+- [Set secret env vars in Heroku](https://devcenter.heroku.com/articles/config-vars): `heroku config:set $(grep -v '^#' .local-secrets)`
 
 ## Develop Bot
 
