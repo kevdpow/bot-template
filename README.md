@@ -41,7 +41,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
   - Windows: `call venv\Scripts\activate.bat`
 - `python3 -m pip install -r requirements.txt`
 - Create Heroku app
-  - [Install Heroku CLI if you haven't](https://devcenter.heroku.com/articles/git)
+  - [Install Heroku CLI](https://devcenter.heroku.com/articles/git)
   - `heroku create YOUR-APP-NAME --buildpack heroku/python`
 - Install Heroku Scheduler
   - `heroku addons:create scheduler:standard`
