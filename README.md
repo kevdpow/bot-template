@@ -42,8 +42,7 @@ TWITTER_ACCESS_TOKEN_SECRET=YOUR-TWITTER-ACCESS-TOKEN-SECRET
   - `heroku create YOUR-APP-NAME --buildpack heroku/python`
 - Install Heroku Scheduler
   - `heroku addons:create scheduler:standard`
-- (**Develop bot in `main.py`!**)
-  - When using different function than `twitter_action()` for bot, be sure to update `if __name__ == "__main__"`
+- **Develop bot in `main.py`!**
 
 ## Deploy and Schedule bot
 
