@@ -18,7 +18,7 @@ def twitter_action():
     thousandDaysFromNow = now + datetime.timedelta(days=1000)
     formattedDate = datetime.datetime.strftime(thousandDaysFromNow, "%m/%d/%Y")
     tweet = "today + 1000 days = {}".format(formattedDate)
-    client.create_tweeet(text=tweet)
+    client.create_tweet(text=tweet)
 
 
 if __name__ == "__main__":
